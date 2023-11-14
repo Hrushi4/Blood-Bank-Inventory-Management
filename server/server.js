@@ -13,7 +13,7 @@ app.use("/api/users", usersRoute);
 app.use("/api/inventory", inventoryRoute);
 app.use("/api/dashboard", dashboardRoute);
 
-// deployment config
+// deployment confi
 const path = require("path");
 __dirname = path.resolve();
 
